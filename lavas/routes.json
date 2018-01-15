@@ -1,0 +1,57 @@
+{
+    "mode": "history",
+    "base": "/",
+    "routes": [
+        {
+            "path": "/about",
+            "name": "about",
+            "meta": {}
+        },
+        {
+            "path": "/appshell",
+            "name": "appshell",
+            "meta": {}
+        },
+        {
+            "path": "/detail/:id",
+            "name": "detailId",
+            "meta": {}
+        },
+        {
+            "path": "/",
+            "name": "index",
+            "meta": {}
+        },
+        {
+            "path": "/search",
+            "name": "search",
+            "meta": {}
+        },
+        {
+            "path": "/skill",
+            "name": "skill",
+            "meta": {}
+        },
+        {
+            "path": "/subject",
+            "name": "subject",
+            "meta": {}
+        },
+        {
+            "path": "/time",
+            "name": "time",
+            "meta": {}
+        },
+        {
+            "path": "/type",
+            "name": "type",
+            "meta": {}
+        },
+        {
+            "path": "/error",
+            "name": "error",
+            "meta": {},
+            "alias": "*"
+        }
+    ]
+}
